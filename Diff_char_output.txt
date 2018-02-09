@@ -1,0 +1,1048 @@
+
+For S-box 0
+For input diff 0
+64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+For input diff 1
+0 0 0 6 0 2 4 4 0 10 12 4 10 6 2 4 
+For input diff 2
+0 0 0 8 0 4 4 4 0 6 8 6 12 6 4 2 
+For input diff 3
+14 4 2 2 10 6 4 2 6 4 4 0 2 2 2 0 
+For input diff 4
+0 0 0 6 0 10 10 6 0 4 6 4 2 8 6 2 
+For input diff 5
+4 8 6 2 2 4 4 2 0 4 4 0 12 2 4 6 
+For input diff 6
+0 4 2 4 8 2 6 2 8 4 4 2 4 2 0 12 
+For input diff 7
+2 4 10 4 0 4 8 4 2 4 8 2 2 2 4 4 
+For input diff 8
+0 0 0 12 0 8 8 4 0 6 2 8 8 2 2 4 
+For input diff 9
+10 2 4 0 2 4 6 0 2 2 8 0 10 0 2 12 
+For input diff 10
+0 8 6 2 2 8 6 0 6 4 6 0 4 0 2 10 
+For input diff 11
+2 4 0 10 2 2 4 0 2 6 2 6 6 4 2 12 
+For input diff 12
+0 0 0 8 0 6 6 0 0 6 6 4 6 6 14 2 
+For input diff 13
+6 6 4 8 4 8 2 6 0 6 4 6 0 2 0 2 
+For input diff 14
+0 4 8 8 6 6 4 0 6 6 4 0 0 4 0 8 
+For input diff 15
+2 0 2 4 4 6 4 2 4 8 2 2 2 6 8 8 
+For input diff 16
+0 0 0 0 0 0 2 14 0 6 6 12 4 6 8 6 
+For input diff 17
+6 8 2 4 6 4 8 6 4 0 6 6 0 4 0 0 
+For input diff 18
+0 8 4 2 6 6 4 6 6 4 2 6 6 0 4 0 
+For input diff 19
+2 4 4 6 2 0 4 6 2 0 6 8 4 6 4 6 
+For input diff 20
+0 8 8 0 10 0 4 2 8 2 2 4 4 8 4 0 
+For input diff 21
+0 4 6 4 2 2 4 10 6 2 0 10 0 4 6 4 
+For input diff 22
+0 8 10 8 0 2 2 6 10 2 0 2 0 6 2 6 
+For input diff 23
+4 4 6 0 10 6 0 2 4 4 4 6 6 6 2 0 
+For input diff 24
+0 6 6 0 8 4 2 2 2 4 6 8 6 6 2 2 
+For input diff 25
+2 6 2 4 0 8 4 6 10 4 0 4 2 8 4 0 
+For input diff 26
+0 6 4 0 4 6 6 6 6 2 2 0 4 4 6 8 
+For input diff 27
+4 4 2 4 10 6 6 4 6 2 2 4 2 2 4 2 
+For input diff 28
+0 10 10 6 6 0 0 12 6 4 0 0 2 4 4 0 
+For input diff 29
+4 2 4 0 8 0 0 2 10 0 2 6 6 6 14 0 
+For input diff 30
+0 2 6 0 14 2 0 0 6 4 10 8 2 2 6 2 
+For input diff 31
+2 4 10 6 2 2 2 8 6 8 0 0 0 4 6 4 
+For input diff 32
+0 0 0 10 0 12 8 2 0 6 4 4 4 2 0 12 
+For input diff 33
+0 4 2 4 4 8 10 0 4 4 10 0 4 0 2 8 
+For input diff 34
+10 4 6 2 2 8 2 2 2 2 6 0 4 0 4 10 
+For input diff 35
+0 4 4 8 0 2 6 0 6 6 2 10 2 4 0 10 
+For input diff 36
+12 0 0 2 2 2 2 0 14 14 2 0 2 6 2 4 
+For input diff 37
+6 4 4 12 4 4 4 10 2 2 2 0 4 2 2 2 
+For input diff 38
+0 0 4 10 10 10 2 4 0 4 6 4 4 4 2 0 
+For input diff 39
+10 4 2 0 2 4 2 0 4 8 0 4 8 8 4 4 
+For input diff 40
+12 2 2 8 2 6 12 0 0 2 6 0 4 0 6 2 
+For input diff 41
+4 2 2 10 0 2 4 0 0 14 10 2 4 6 0 4 
+For input diff 42
+4 2 4 6 0 2 8 2 2 14 2 6 2 6 2 2 
+For input diff 43
+12 2 2 2 4 6 6 2 0 2 6 2 6 0 8 4 
+For input diff 44
+4 2 2 4 0 2 10 4 2 2 4 8 8 4 2 6 
+For input diff 45
+6 2 6 2 8 4 4 4 2 4 6 0 8 2 0 6 
+For input diff 46
+6 6 2 2 0 2 4 6 4 0 6 2 12 2 6 4 
+For input diff 47
+2 2 2 2 2 6 8 8 2 4 4 6 8 2 4 2 
+For input diff 48
+0 4 6 0 12 6 2 2 8 2 4 4 6 2 2 4 
+For input diff 49
+4 8 2 10 2 2 2 2 6 0 0 2 2 4 10 8 
+For input diff 50
+4 2 6 4 4 2 2 4 6 6 4 8 2 2 8 0 
+For input diff 51
+4 4 6 2 10 8 4 2 4 0 2 2 4 6 2 4 
+For input diff 52
+0 8 16 6 2 0 0 12 6 0 0 0 0 8 0 6 
+For input diff 53
+2 2 4 0 8 0 0 0 14 4 6 8 0 2 14 0 
+For input diff 54
+2 6 2 2 8 0 2 2 4 2 6 8 6 4 10 0 
+For input diff 55
+2 2 12 4 2 4 4 10 4 4 2 6 0 2 2 4 
+For input diff 56
+0 6 2 2 2 0 2 2 4 6 4 4 4 6 10 10 
+For input diff 57
+6 2 2 4 12 6 4 8 4 0 2 4 2 4 4 0 
+For input diff 58
+6 4 6 4 6 8 0 6 2 2 6 2 2 6 4 0 
+For input diff 59
+2 6 4 0 0 2 4 6 4 6 8 6 4 4 6 2 
+For input diff 60
+0 10 4 0 12 0 4 2 6 0 4 12 4 4 2 0 
+For input diff 61
+0 8 6 2 2 6 0 8 4 4 0 4 0 12 4 4 
+For input diff 62
+4 8 2 2 2 4 4 14 4 2 0 2 0 8 4 4 
+For input diff 63
+4 8 4 2 4 0 2 4 4 2 4 8 8 6 2 2 
+--------------------------------------
+
+For S-box 1
+For input diff 0
+64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+For input diff 1
+0 0 0 4 0 2 6 4 0 14 8 6 8 4 6 2 
+For input diff 2
+0 0 0 2 0 4 6 4 0 0 4 6 10 10 12 6 
+For input diff 3
+4 8 4 8 4 6 4 2 4 2 2 4 6 2 0 4 
+For input diff 4
+0 0 0 0 0 6 0 14 0 6 10 4 10 6 4 4 
+For input diff 5
+2 0 4 8 2 4 6 6 2 0 8 4 2 4 10 2 
+For input diff 6
+0 12 6 4 6 4 6 2 2 10 2 8 2 0 0 0 
+For input diff 7
+4 6 6 4 2 4 4 2 6 4 2 4 4 6 0 6 
+For input diff 8
+0 0 0 4 0 4 0 8 0 10 16 6 6 0 6 4 
+For input diff 9
+14 2 4 10 2 8 2 6 2 4 0 0 2 2 2 4 
+For input diff 10
+0 6 6 2 10 4 10 2 6 2 2 4 2 2 4 2 
+For input diff 11
+6 2 2 0 2 4 6 2 10 2 0 6 6 4 4 8 
+For input diff 12
+0 0 0 4 0 14 0 10 0 6 2 4 4 8 6 6 
+For input diff 13
+6 2 6 2 10 2 0 4 0 10 4 2 8 2 2 4 
+For input diff 14
+0 6 12 8 0 4 2 0 8 2 4 4 6 2 0 6 
+For input diff 15
+0 8 2 0 6 6 8 2 4 4 4 6 8 0 4 2 
+For input diff 16
+0 0 0 8 0 4 10 2 0 2 8 10 0 10 6 4 
+For input diff 17
+6 6 4 6 4 0 6 4 8 2 10 2 2 4 0 0 
+For input diff 18
+0 6 2 6 2 4 12 4 6 4 0 4 4 6 2 2 
+For input diff 19
+4 0 4 0 8 6 6 0 0 2 0 6 4 8 2 14 
+For input diff 20
+0 6 6 4 10 0 2 12 6 2 2 2 4 4 2 2 
+For input diff 21
+6 8 2 0 8 2 0 2 2 2 2 2 2 14 10 2 
+For input diff 22
+0 8 6 4 2 2 4 2 6 4 6 2 6 0 6 6 
+For input diff 23
+6 4 8 6 4 4 0 4 6 2 4 4 4 2 4 2 
+For input diff 24
+0 6 4 6 10 4 0 2 4 8 0 0 4 8 2 6 
+For input diff 25
+2 4 6 4 4 2 4 2 6 4 6 8 0 6 4 2 
+For input diff 26
+0 6 8 4 2 4 2 2 8 2 2 6 2 4 4 8 
+For input diff 27
+0 6 4 4 0 12 6 4 2 2 2 4 4 2 10 2 
+For input diff 28
+0 4 6 6 12 0 4 0 10 2 6 2 0 0 10 2 
+For input diff 29
+0 6 2 2 6 0 4 16 4 4 2 0 0 4 6 8 
+For input diff 30
+0 4 8 2 10 6 6 0 8 4 0 2 4 4 0 6 
+For input diff 31
+4 2 6 6 2 2 2 4 8 6 10 6 4 0 0 2 
+For input diff 32
+0 0 0 2 0 12 10 4 0 0 0 2 14 2 8 10 
+For input diff 33
+0 4 6 8 2 10 4 2 2 6 4 2 6 2 0 6 
+For input diff 34
+4 12 8 4 2 2 0 0 2 8 8 6 0 6 0 2 
+For input diff 35
+8 2 0 2 8 4 2 6 4 8 2 2 6 4 2 4 
+For input diff 36
+10 4 0 0 0 4 0 2 6 8 6 10 8 0 2 4 
+For input diff 37
+6 0 12 2 8 6 10 0 0 8 2 6 0 0 2 2 
+For input diff 38
+2 2 4 4 2 2 10 14 2 0 4 2 2 4 6 4 
+For input diff 39
+6 0 0 2 6 4 2 4 4 4 8 4 8 0 6 6 
+For input diff 40
+8 0 8 2 4 12 2 0 2 6 2 0 6 2 0 10 
+For input diff 41
+0 2 4 10 2 8 6 4 0 10 0 2 10 0 2 4 
+For input diff 42
+4 0 4 8 6 2 4 4 6 6 2 6 2 2 4 4 
+For input diff 43
+2 2 6 4 0 2 2 6 2 8 8 4 4 4 8 2 
+For input diff 44
+10 6 8 6 0 6 4 4 4 2 4 4 0 0 2 4 
+For input diff 45
+2 2 2 4 0 0 0 2 8 4 4 6 10 2 14 4 
+For input diff 46
+2 4 0 2 10 4 2 0 2 2 6 2 8 8 10 2 
+For input diff 47
+12 4 6 8 2 6 2 8 0 4 0 2 0 8 2 0 
+For input diff 48
+0 4 0 2 4 4 8 6 10 6 2 12 0 0 0 6 
+For input diff 49
+0 10 2 0 6 2 10 2 6 0 2 0 6 6 4 8 
+For input diff 50
+8 4 6 0 6 4 4 8 4 6 8 0 2 2 2 0 
+For input diff 51
+2 2 6 10 2 0 0 6 4 4 12 8 4 2 2 0 
+For input diff 52
+0 12 6 4 6 0 4 4 4 0 4 6 4 2 4 4 
+For input diff 53
+0 12 4 6 2 4 4 0 10 0 0 8 0 8 0 6 
+For input diff 54
+8 2 4 0 4 0 4 2 0 8 4 2 6 16 2 2 
+For input diff 55
+6 2 2 2 6 6 4 8 2 2 6 2 2 2 4 8 
+For input diff 56
+0 8 8 10 6 2 2 0 4 0 4 2 4 0 4 10 
+For input diff 57
+0 2 0 0 8 0 10 4 10 0 8 4 4 4 4 6 
+For input diff 58
+4 0 2 8 4 2 2 2 4 8 2 0 4 10 10 2 
+For input diff 59
+16 4 4 2 8 2 2 6 4 4 4 2 0 2 2 2 
+For input diff 60
+0 2 6 2 8 4 6 0 10 2 2 4 4 10 4 0 
+For input diff 61
+0 16 10 2 4 2 4 2 8 0 0 8 0 6 2 0 
+For input diff 62
+4 4 0 10 2 4 2 14 4 2 6 6 0 0 6 0 
+For input diff 63
+4 0 0 2 0 8 2 4 0 2 4 4 4 14 10 6 
+--------------------------------------
+
+For S-box 2
+For input diff 0
+64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+For input diff 1
+0 0 0 2 0 4 2 12 0 14 0 4 8 2 6 10 
+For input diff 2
+0 0 0 2 0 2 0 8 0 4 12 10 4 6 8 8 
+For input diff 3
+8 6 10 4 8 6 0 6 4 4 0 0 0 4 2 2 
+For input diff 4
+0 0 0 4 0 2 4 2 0 12 8 4 6 8 10 4 
+For input diff 5
+6 2 4 8 6 10 6 2 2 8 2 0 2 0 4 2 
+For input diff 6
+0 10 6 6 10 0 4 12 2 4 0 0 6 4 0 0 
+For input diff 7
+2 0 0 4 4 4 4 2 10 4 4 8 4 4 4 6 
+For input diff 8
+0 0 0 10 0 4 4 6 0 6 6 6 6 0 8 8 
+For input diff 9
+10 2 0 2 10 4 6 2 0 6 0 4 6 2 4 6 
+For input diff 10
+0 10 6 0 14 6 4 0 4 6 6 0 4 0 2 2 
+For input diff 11
+2 6 2 10 2 2 4 0 4 2 6 0 2 8 14 0 
+For input diff 12
+0 0 0 8 0 12 12 4 0 8 0 4 2 10 2 2 
+For input diff 13
+8 2 8 0 0 4 2 0 2 8 14 2 6 2 4 2 
+For input diff 14
+0 4 4 2 4 2 4 4 10 4 4 4 4 4 2 8 
+For input diff 15
+4 6 4 6 2 2 4 8 6 2 6 2 0 6 2 4 
+For input diff 16
+0 0 0 4 0 12 4 8 0 4 2 6 2 14 0 8 
+For input diff 17
+8 2 2 6 4 0 2 0 8 4 12 2 10 0 2 2 
+For input diff 18
+0 2 8 2 4 8 0 8 8 0 2 2 4 2 14 0 
+For input diff 19
+4 4 12 0 2 2 2 10 2 2 2 2 4 4 4 8 
+For input diff 20
+0 6 4 4 6 4 6 2 8 6 6 2 2 0 0 8 
+For input diff 21
+4 8 2 8 2 4 8 0 4 2 2 2 2 6 8 2 
+For input diff 22
+0 6 10 2 8 4 2 0 2 2 2 8 4 6 4 4 
+For input diff 23
+0 6 6 0 6 2 4 4 6 2 2 10 6 8 2 0 
+For input diff 24
+0 8 4 6 6 0 6 2 4 0 4 2 10 0 6 6 
+For input diff 25
+4 2 4 8 4 2 10 2 2 2 6 8 2 6 0 2 
+For input diff 26
+0 8 6 4 4 0 6 4 4 8 0 10 2 2 2 4 
+For input diff 27
+4 10 2 0 2 4 2 4 8 2 2 8 4 2 8 2 
+For input diff 28
+0 6 8 8 4 2 8 0 12 0 10 0 4 0 2 0 
+For input diff 29
+0 2 0 6 2 8 4 6 2 0 4 2 4 10 0 14 
+For input diff 30
+0 4 8 2 4 6 0 4 10 0 2 6 4 8 4 2 
+For input diff 31
+0 6 8 0 10 6 4 6 4 2 2 10 4 0 0 2 
+For input diff 32
+0 0 0 0 0 4 4 8 0 2 2 4 10 16 12 2 
+For input diff 33
+10 8 8 0 8 4 2 4 0 6 6 6 0 0 2 0 
+For input diff 34
+12 6 4 4 2 4 10 2 0 4 4 2 4 4 0 2 
+For input diff 35
+2 2 0 6 0 2 4 0 4 12 4 2 6 4 8 8 
+For input diff 36
+4 8 2 12 6 4 2 10 2 2 2 4 2 0 4 0 
+For input diff 37
+6 0 2 0 8 2 0 2 8 8 2 2 4 4 10 6 
+For input diff 38
+6 2 0 4 4 0 4 0 4 2 14 0 8 10 0 6 
+For input diff 39
+0 2 4 16 8 6 6 6 0 2 4 4 0 2 2 2 
+For input diff 40
+6 2 10 0 6 4 0 4 4 2 4 8 2 2 8 2 
+For input diff 41
+0 2 8 4 0 4 0 6 4 10 4 8 4 4 4 2 
+For input diff 42
+2 6 0 4 2 4 4 6 4 8 4 4 4 2 4 6 
+For input diff 43
+10 2 6 6 4 4 8 0 4 2 2 0 2 4 4 6 
+For input diff 44
+10 4 6 2 4 2 2 2 4 10 4 4 0 2 6 2 
+For input diff 45
+4 2 4 4 4 2 4 16 2 0 0 4 4 2 6 6 
+For input diff 46
+4 0 2 10 0 6 10 4 2 6 6 2 2 0 2 8 
+For input diff 47
+8 2 0 0 4 4 4 2 6 4 6 2 4 8 4 6 
+For input diff 48
+0 10 8 6 2 0 4 2 10 4 4 6 2 0 6 0 
+For input diff 49
+2 6 2 0 4 2 8 8 2 2 2 0 2 12 6 6 
+For input diff 50
+2 0 4 8 2 8 4 4 8 4 2 8 6 2 0 2 
+For input diff 51
+4 4 6 8 6 6 0 2 2 2 6 4 12 0 0 2 
+For input diff 52
+0 6 2 2 16 2 2 2 12 2 4 0 4 2 0 8 
+For input diff 53
+4 6 0 10 8 0 2 2 6 0 0 6 2 10 2 6 
+For input diff 54
+4 4 4 4 0 6 6 4 4 4 4 4 0 6 2 8 
+For input diff 55
+4 8 2 4 2 2 6 0 2 4 8 4 10 0 6 2 
+For input diff 56
+0 8 12 0 2 2 6 6 2 10 2 2 0 8 0 4 
+For input diff 57
+2 6 4 0 6 4 6 4 8 0 4 4 2 4 8 2 
+For input diff 58
+6 0 2 2 4 6 4 4 4 2 2 6 12 2 6 2 
+For input diff 59
+2 2 6 0 0 10 4 8 4 2 4 8 4 4 0 6 
+For input diff 60
+0 2 4 2 12 2 0 6 2 0 2 8 4 6 4 10 
+For input diff 61
+4 6 8 6 2 2 2 2 10 2 6 6 2 4 2 0 
+For input diff 62
+8 6 4 4 2 10 2 0 2 2 4 2 4 2 10 2 
+For input diff 63
+2 6 4 0 0 10 8 2 2 8 6 4 6 2 0 4 
+--------------------------------------
+
+For S-box 3
+For input diff 0
+64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+For input diff 1
+0 0 0 0 0 16 16 0 0 16 16 0 0 0 0 0 
+For input diff 2
+0 0 0 8 0 4 4 8 0 4 4 8 8 8 8 0 
+For input diff 3
+8 6 2 0 2 4 8 2 6 0 4 6 0 6 2 8 
+For input diff 4
+0 0 0 8 0 0 12 4 0 12 0 4 8 4 4 8 
+For input diff 5
+4 2 2 8 2 12 0 2 2 0 12 2 8 2 2 4 
+For input diff 6
+0 8 8 4 8 8 0 0 8 0 8 0 4 0 0 8 
+For input diff 7
+4 2 6 4 6 0 16 6 2 0 0 2 4 2 6 4 
+For input diff 8
+0 0 0 4 0 8 4 8 0 4 8 8 4 8 8 0 
+For input diff 9
+8 4 4 4 4 0 8 4 4 0 0 4 4 4 4 8 
+For input diff 10
+0 6 6 0 6 4 4 6 6 4 4 6 0 6 6 0 
+For input diff 11
+0 12 0 8 0 0 0 0 12 0 0 12 8 12 0 0 
+For input diff 12
+0 0 0 4 0 8 4 8 0 4 8 8 4 8 8 0 
+For input diff 13
+8 4 4 4 4 0 0 4 4 8 0 4 4 4 4 8 
+For input diff 14
+0 6 6 4 6 0 4 6 6 4 0 6 4 6 6 0 
+For input diff 15
+0 6 6 4 6 4 0 6 6 0 4 6 4 6 6 0 
+For input diff 16
+0 0 0 0 0 8 12 4 0 12 8 4 0 4 4 8 
+For input diff 17
+4 2 2 16 2 4 0 2 2 0 4 2 16 2 2 4 
+For input diff 18
+0 0 0 8 0 4 4 8 0 4 4 8 8 8 8 0 
+For input diff 19
+8 2 6 0 6 4 0 6 2 8 4 2 0 2 6 8 
+For input diff 20
+0 8 8 0 8 0 8 0 8 8 0 0 0 0 0 16 
+For input diff 21
+8 4 4 0 4 8 0 4 4 0 8 4 0 4 4 8 
+For input diff 22
+0 8 8 4 8 8 0 0 8 0 8 0 4 0 0 8 
+For input diff 23
+4 6 2 4 2 0 0 2 6 16 0 6 4 6 2 4 
+For input diff 24
+0 8 8 8 8 4 0 0 8 0 4 0 8 0 0 8 
+For input diff 25
+4 4 4 0 4 4 16 4 4 0 4 4 0 4 4 4 
+For input diff 26
+0 6 6 4 6 0 4 6 6 4 0 6 4 6 6 0 
+For input diff 27
+0 6 6 4 6 4 0 6 6 0 4 6 4 6 6 0 
+For input diff 28
+0 8 8 8 8 4 0 0 8 0 4 0 8 0 0 8 
+For input diff 29
+4 4 4 0 4 4 0 4 4 16 4 4 0 4 4 4 
+For input diff 30
+0 6 6 0 6 4 4 6 6 4 4 6 0 6 6 0 
+For input diff 31
+0 0 12 8 12 0 0 12 0 0 0 0 8 0 12 0 
+For input diff 32
+0 0 0 8 0 0 0 12 0 0 0 12 8 12 12 0 
+For input diff 33
+0 4 8 0 8 4 8 8 4 0 4 4 0 4 8 0 
+For input diff 34
+8 2 2 0 2 4 8 6 2 8 4 6 0 6 6 0 
+For input diff 35
+4 6 2 8 2 4 0 2 6 0 4 6 8 6 2 4 
+For input diff 36
+0 6 6 4 6 4 0 6 6 0 4 6 4 6 6 0 
+For input diff 37
+0 8 4 4 4 0 0 4 8 8 0 8 4 8 4 0 
+For input diff 38
+0 6 6 0 6 4 8 2 6 8 4 2 0 2 2 8 
+For input diff 39
+4 6 2 8 2 4 0 2 6 0 4 6 8 6 2 4 
+For input diff 40
+16 4 4 0 4 4 4 4 4 4 4 4 0 4 4 0 
+For input diff 41
+0 6 2 8 2 4 0 2 6 8 4 6 8 6 2 0 
+For input diff 42
+0 2 2 16 2 4 4 2 2 4 4 2 16 2 2 0 
+For input diff 43
+8 0 4 0 4 8 16 4 0 0 8 0 0 0 4 8 
+For input diff 44
+8 4 4 4 4 0 8 4 4 8 0 4 4 4 4 0 
+For input diff 45
+4 2 6 4 6 8 0 6 2 0 8 2 4 2 6 4 
+For input diff 46
+16 0 0 0 0 16 0 0 0 0 16 0 0 0 0 16 
+For input diff 47
+16 0 0 0 0 0 16 0 0 16 0 0 0 0 0 16 
+For input diff 48
+0 6 6 4 6 4 0 6 6 0 4 6 4 6 6 0 
+For input diff 49
+0 8 4 4 4 0 0 4 8 8 0 8 4 8 4 0 
+For input diff 50
+16 6 6 4 6 0 4 2 6 4 0 2 4 2 2 0 
+For input diff 51
+0 2 6 4 6 8 8 6 2 0 8 2 4 2 6 0 
+For input diff 52
+0 12 12 8 12 0 0 0 12 0 0 0 8 0 0 0 
+For input diff 53
+0 4 8 0 8 4 8 8 4 0 4 4 0 4 8 0 
+For input diff 54
+0 2 2 4 2 0 4 6 2 4 0 6 4 6 6 16 
+For input diff 55
+0 2 6 4 6 8 8 6 2 0 8 2 4 2 6 0 
+For input diff 56
+0 4 4 0 4 4 4 4 4 4 4 4 0 4 4 16 
+For input diff 57
+0 6 2 8 2 4 0 2 6 8 4 6 8 6 2 0 
+For input diff 58
+0 4 4 0 4 8 8 4 4 8 8 4 0 4 4 0 
+For input diff 59
+16 4 4 0 4 0 0 4 4 0 0 4 0 4 4 16 
+For input diff 60
+0 4 4 4 4 0 8 4 4 8 0 4 4 4 4 8 
+For input diff 61
+4 2 6 4 6 8 0 6 2 0 8 2 4 2 6 4 
+For input diff 62
+0 2 2 8 2 12 4 2 2 4 12 2 8 2 2 0 
+For input diff 63
+8 4 0 8 0 0 0 0 4 16 0 4 8 4 0 8 
+--------------------------------------
+
+For S-box 4
+For input diff 0
+64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+For input diff 1
+0 0 0 4 0 10 8 6 0 4 2 2 12 10 2 4 
+For input diff 2
+0 0 0 4 0 10 6 4 0 6 4 2 4 8 10 6 
+For input diff 3
+8 2 4 6 4 4 2 2 6 8 6 4 4 0 2 2 
+For input diff 4
+0 0 0 8 0 4 10 6 0 6 6 4 8 6 0 6 
+For input diff 5
+12 2 0 4 0 4 8 2 4 0 16 2 0 2 0 8 
+For input diff 6
+0 8 4 6 4 6 2 2 4 4 6 0 6 0 2 10 
+For input diff 7
+2 0 4 8 4 2 6 6 2 8 6 2 2 0 6 6 
+For input diff 8
+0 0 0 2 0 8 10 4 0 4 10 4 8 4 4 6 
+For input diff 9
+8 6 0 4 0 6 6 2 2 10 2 8 6 2 0 2 
+For input diff 10
+0 6 8 6 0 8 0 0 8 10 4 2 8 0 0 4 
+For input diff 11
+4 2 2 4 8 10 6 4 2 6 2 2 6 2 2 2 
+For input diff 12
+0 0 0 10 0 2 10 2 0 6 10 6 6 6 2 4 
+For input diff 13
+10 4 2 2 0 6 16 0 0 2 10 2 2 4 0 4 
+For input diff 14
+0 6 4 8 4 6 10 2 4 4 4 2 4 0 2 4 
+For input diff 15
+4 4 0 8 0 2 0 2 8 2 4 2 8 4 4 12 
+For input diff 16
+0 0 0 0 0 4 4 12 0 2 8 10 4 6 12 2 
+For input diff 17
+6 6 10 10 4 0 2 6 2 4 0 6 2 4 2 0 
+For input diff 18
+0 2 4 2 10 4 0 10 8 6 0 6 0 6 6 0 
+For input diff 19
+0 0 6 2 8 0 0 4 4 6 2 8 2 8 10 4 
+For input diff 20
+0 12 2 6 4 0 4 4 8 4 4 4 6 2 4 0 
+For input diff 21
+4 8 0 2 8 0 2 4 2 2 4 2 4 8 8 6 
+For input diff 22
+0 6 10 2 14 0 2 2 4 4 0 6 0 4 6 4 
+For input diff 23
+0 6 8 4 8 4 0 2 8 4 0 2 2 8 6 2 
+For input diff 24
+0 10 8 0 6 4 0 4 4 4 6 4 4 4 0 6 
+For input diff 25
+0 4 6 2 4 4 2 6 4 2 2 4 12 2 10 0 
+For input diff 26
+0 2 16 2 12 2 0 6 4 0 0 4 0 4 4 8 
+For input diff 27
+2 8 12 0 0 2 2 6 8 4 0 6 0 0 8 6 
+For input diff 28
+0 10 2 6 6 6 6 4 8 2 0 4 4 4 2 0 
+For input diff 29
+4 6 2 0 8 2 4 6 6 0 8 6 2 4 2 4 
+For input diff 30
+0 2 6 2 4 0 0 2 12 2 2 6 2 10 10 4 
+For input diff 31
+0 6 8 4 8 8 0 6 6 2 0 6 0 6 2 2 
+For input diff 32
+0 0 0 8 0 8 2 6 0 4 4 4 6 6 8 8 
+For input diff 33
+0 0 0 6 6 2 6 4 6 10 14 4 0 0 4 2 
+For input diff 34
+14 4 0 10 0 2 12 2 2 2 10 2 0 0 2 2 
+For input diff 35
+2 0 0 4 2 2 10 4 0 8 8 2 6 8 0 8 
+For input diff 36
+6 2 8 4 4 4 6 2 2 6 6 2 6 2 2 2 
+For input diff 37
+6 0 0 8 2 8 2 6 6 4 2 2 4 2 6 6 
+For input diff 38
+12 0 0 4 0 4 4 4 0 8 4 0 12 8 0 4 
+For input diff 39
+12 2 0 2 0 12 2 2 4 4 8 4 8 2 2 0 
+For input diff 40
+2 8 4 6 2 4 6 0 6 6 4 0 2 2 2 10 
+For input diff 41
+6 4 6 8 8 4 6 2 0 0 2 2 10 0 2 4 
+For input diff 42
+4 4 0 2 2 4 6 2 0 0 6 4 10 4 4 12 
+For input diff 43
+4 6 2 6 0 0 12 2 0 4 12 2 6 4 0 4 
+For input diff 44
+8 6 2 6 4 8 6 0 4 4 0 2 6 0 6 2 
+For input diff 45
+4 4 0 4 0 6 4 2 4 12 0 4 4 6 4 6 
+For input diff 46
+6 0 2 4 0 6 6 4 2 10 6 10 6 2 0 0 
+For input diff 47
+10 4 0 2 2 6 10 2 0 2 2 4 6 2 2 10 
+For input diff 48
+0 4 8 4 6 4 0 6 10 4 2 4 2 6 4 0 
+For input diff 49
+0 6 6 4 10 2 0 0 4 4 0 0 4 6 12 6 
+For input diff 50
+4 6 0 2 6 4 6 0 6 0 4 6 4 10 6 0 
+For input diff 51
+8 10 0 14 8 0 0 8 2 0 2 4 0 4 4 0 
+For input diff 52
+0 4 4 2 14 4 0 8 6 8 2 2 0 4 6 0 
+For input diff 53
+0 4 16 0 8 4 0 4 4 4 0 8 0 4 4 4 
+For input diff 54
+4 4 4 6 2 2 2 12 2 4 4 8 2 4 4 0 
+For input diff 55
+4 2 2 2 4 2 0 8 2 2 2 12 6 2 8 6 
+For input diff 56
+0 4 8 4 12 0 0 8 10 2 0 0 0 4 2 10 
+For input diff 57
+0 8 12 0 2 2 2 2 12 4 0 8 0 4 4 4 
+For input diff 58
+0 14 4 0 4 6 0 0 6 2 10 8 0 0 4 6 
+For input diff 59
+0 2 2 2 4 4 8 6 8 2 2 2 6 14 2 0 
+For input diff 60
+0 0 10 2 6 0 0 2 6 2 2 10 2 4 10 8 
+For input diff 61
+0 6 12 2 4 8 0 8 8 2 2 0 2 2 4 4 
+For input diff 62
+4 4 10 0 2 4 8 8 2 2 0 2 6 8 4 0 
+For input diff 63
+8 6 6 0 4 2 2 4 4 2 8 6 2 4 6 0 
+--------------------------------------
+
+For S-box 5
+For input diff 0
+64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+For input diff 1
+0 0 0 6 0 2 6 2 0 4 2 4 6 16 14 2 
+For input diff 2
+0 0 0 2 0 10 6 10 0 2 4 8 6 6 8 2 
+For input diff 3
+0 8 0 8 0 6 4 6 4 4 4 12 2 4 2 0 
+For input diff 4
+0 0 0 8 0 0 8 0 0 6 8 10 2 4 10 8 
+For input diff 5
+10 2 4 4 4 8 8 4 2 2 0 4 0 8 0 4 
+For input diff 6
+0 8 4 4 8 4 2 2 12 0 2 6 6 2 2 2 
+For input diff 7
+6 6 4 0 2 10 2 2 2 2 6 6 8 0 6 2 
+For input diff 8
+0 0 0 6 0 2 16 4 0 2 6 2 4 12 6 4 
+For input diff 9
+10 4 2 6 0 2 6 2 4 0 8 6 4 4 2 4 
+For input diff 10
+0 14 4 4 0 2 2 2 10 4 4 4 6 4 2 2 
+For input diff 11
+4 6 2 0 2 2 12 8 2 2 2 6 8 2 0 6 
+For input diff 12
+0 0 0 12 0 10 4 6 0 8 4 4 2 12 2 0 
+For input diff 13
+12 0 2 10 6 4 4 2 4 2 6 0 2 6 0 4 
+For input diff 14
+0 6 4 0 4 4 10 8 6 2 4 6 2 0 6 2 
+For input diff 15
+2 2 2 2 6 2 6 2 10 4 8 2 6 4 4 2 
+For input diff 16
+0 0 0 8 0 8 0 12 0 4 2 6 8 4 6 6 
+For input diff 17
+6 2 6 4 6 2 6 4 6 6 4 2 4 0 6 0 
+For input diff 18
+0 8 4 2 0 4 2 0 4 10 6 2 8 6 4 4 
+For input diff 19
+6 6 12 0 12 2 0 6 6 2 0 4 0 2 4 2 
+For input diff 20
+0 4 6 2 8 6 0 2 6 10 4 0 2 4 6 4 
+For input diff 21
+2 2 6 6 4 4 2 6 2 6 8 4 4 0 4 4 
+For input diff 22
+0 4 14 6 8 4 2 6 2 0 2 0 4 2 0 10 
+For input diff 23
+2 6 8 0 0 2 0 2 2 6 0 8 8 2 12 6 
+For input diff 24
+0 4 6 6 8 4 2 2 6 4 6 4 2 4 2 4 
+For input diff 25
+2 6 0 2 4 4 4 6 4 8 6 4 2 2 6 4 
+For input diff 26
+0 6 6 0 8 2 4 6 4 2 4 6 2 0 4 10 
+For input diff 27
+0 4 10 2 4 4 2 6 6 6 2 2 6 6 2 2 
+For input diff 28
+0 0 8 2 12 2 6 2 8 6 6 2 4 0 4 2 
+For input diff 29
+2 4 0 6 8 6 0 2 6 8 6 0 2 4 0 10 
+For input diff 30
+0 10 8 2 8 2 0 2 6 4 2 4 6 4 2 4 
+For input diff 31
+0 6 6 8 6 4 2 4 4 2 2 0 2 4 2 12 
+For input diff 32
+0 0 0 0 0 6 6 4 0 4 8 8 4 6 10 8 
+For input diff 33
+2 8 6 8 4 4 6 6 8 4 0 4 0 2 2 0 
+For input diff 34
+16 2 4 6 2 4 2 0 6 4 8 2 0 2 2 4 
+For input diff 35
+0 4 0 4 4 6 10 4 2 2 6 2 4 6 6 4 
+For input diff 36
+10 8 0 6 12 6 10 4 8 0 0 0 0 0 0 0 
+For input diff 37
+0 2 4 2 0 4 4 0 4 0 10 10 4 10 6 4 
+For input diff 38
+2 2 0 12 2 2 6 2 4 4 8 0 6 6 8 0 
+For input diff 39
+8 4 0 8 2 4 2 4 0 6 2 4 4 8 2 6 
+For input diff 40
+6 8 4 6 0 4 2 2 4 8 2 6 4 2 2 4 
+For input diff 41
+2 4 4 0 8 8 6 8 6 4 0 4 4 4 2 0 
+For input diff 42
+6 0 0 6 6 4 6 8 2 4 0 2 2 4 6 8 
+For input diff 43
+12 0 4 0 0 4 2 2 2 6 10 6 10 2 4 0 
+For input diff 44
+4 2 6 0 0 6 8 6 4 2 2 8 4 6 4 2 
+For input diff 45
+6 2 2 6 6 4 4 2 6 2 4 8 4 2 4 2 
+For input diff 46
+4 6 2 4 2 4 4 2 4 2 4 6 4 10 4 2 
+For input diff 47
+10 0 4 8 0 6 6 2 0 4 4 2 6 2 2 8 
+For input diff 48
+0 12 8 2 0 6 0 0 6 6 0 2 8 2 6 6 
+For input diff 49
+2 6 10 4 2 2 2 4 6 0 2 6 0 2 4 12 
+For input diff 50
+4 2 2 8 10 8 8 6 0 2 2 4 4 2 2 0 
+For input diff 51
+4 2 2 2 6 0 4 0 10 6 6 4 0 4 8 6 
+For input diff 52
+0 4 4 2 6 4 0 4 6 2 6 4 2 8 0 12 
+For input diff 53
+6 12 4 2 4 2 2 4 8 2 2 0 6 4 4 2 
+For input diff 54
+0 2 2 4 4 4 4 0 2 10 12 4 0 10 4 2 
+For input diff 55
+10 2 2 6 14 2 2 6 2 0 4 6 2 0 4 2 
+For input diff 56
+0 4 14 0 8 2 0 4 4 4 2 0 8 2 4 8 
+For input diff 57
+2 4 8 0 6 2 0 6 2 6 4 2 8 6 2 6 
+For input diff 58
+8 4 0 4 6 2 0 4 6 8 6 0 6 0 4 6 
+For input diff 59
+0 4 6 6 2 2 2 14 0 12 0 4 2 2 8 0 
+For input diff 60
+0 6 16 0 2 2 2 8 4 2 0 12 6 2 2 0 
+For input diff 61
+0 6 2 2 2 6 8 2 4 2 6 2 6 2 4 10 
+For input diff 62
+4 2 2 4 4 0 6 10 4 2 4 6 6 2 6 2 
+For input diff 63
+0 4 6 6 4 8 4 0 4 8 4 0 4 8 2 2 
+--------------------------------------
+
+For S-box 6
+For input diff 0
+64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+For input diff 1
+0 0 0 2 0 4 4 14 0 12 4 6 2 6 6 4 
+For input diff 2
+0 0 0 0 0 12 2 2 0 4 0 4 8 12 6 14 
+For input diff 3
+8 2 12 2 6 8 6 0 6 4 4 2 2 0 0 2 
+For input diff 4
+0 0 0 8 0 4 4 8 0 8 8 12 2 6 2 2 
+For input diff 5
+6 0 0 2 8 0 8 4 0 2 6 0 10 6 6 6 
+For input diff 6
+0 2 12 0 8 4 8 2 4 4 4 2 6 0 6 2 
+For input diff 7
+4 6 4 12 0 4 2 0 0 14 2 6 4 0 0 6 
+For input diff 8
+0 0 0 8 0 0 6 10 0 4 12 4 6 6 0 8 
+For input diff 9
+10 8 4 8 6 2 2 0 2 6 8 2 0 6 0 0 
+For input diff 10
+0 10 6 2 12 2 4 0 4 4 6 4 4 0 0 6 
+For input diff 11
+0 2 2 2 4 8 6 4 4 0 4 2 6 4 2 14 
+For input diff 12
+0 0 0 4 0 4 8 4 0 2 6 0 14 12 8 2 
+For input diff 13
+6 6 2 4 2 6 4 6 6 4 8 8 0 2 0 0 
+For input diff 14
+0 12 10 10 0 2 4 2 8 6 4 2 0 0 2 2 
+For input diff 15
+2 0 0 0 6 8 8 0 6 2 4 6 8 0 6 8 
+For input diff 16
+0 0 0 4 0 2 8 6 0 6 4 10 8 4 8 4 
+For input diff 17
+6 10 10 4 4 2 0 4 4 0 2 8 4 2 2 2 
+For input diff 18
+0 0 8 8 2 8 2 8 6 4 2 8 0 0 8 0 
+For input diff 19
+4 4 2 2 8 6 0 2 2 2 0 4 6 8 14 0 
+For input diff 20
+0 8 6 2 8 8 2 6 4 2 0 2 8 6 0 2 
+For input diff 21
+4 4 8 2 4 0 4 10 8 2 4 4 4 2 0 4 
+For input diff 22
+0 6 10 2 2 2 2 4 10 8 2 2 0 4 10 0 
+For input diff 23
+8 2 4 2 6 4 0 6 4 4 2 2 0 4 8 8 
+For input diff 24
+0 16 2 2 6 0 6 0 6 2 8 0 6 0 2 8 
+For input diff 25
+0 8 0 2 4 4 10 4 8 0 6 4 2 6 2 4 
+For input diff 26
+0 2 4 8 12 4 0 6 4 4 0 2 0 6 4 8 
+For input diff 27
+0 6 2 6 4 2 4 4 6 4 8 4 2 0 10 2 
+For input diff 28
+0 8 4 4 2 6 6 6 6 4 6 8 0 2 0 2 
+For input diff 29
+4 4 4 0 0 2 4 2 4 2 2 4 10 10 8 4 
+For input diff 30
+0 0 2 2 12 6 2 0 12 2 2 4 2 6 8 4 
+For input diff 31
+2 2 10 14 2 4 2 4 4 6 0 2 4 8 0 0 
+For input diff 32
+0 0 0 14 0 8 4 2 0 4 2 8 2 6 0 14 
+For input diff 33
+4 2 6 2 12 2 4 0 6 4 10 2 4 2 2 2 
+For input diff 34
+10 6 0 2 4 4 10 0 4 0 12 2 8 0 0 2 
+For input diff 35
+0 6 2 2 2 4 6 10 0 4 8 2 2 6 0 10 
+For input diff 36
+4 2 0 6 8 2 6 0 8 2 2 0 8 2 12 2 
+For input diff 37
+2 0 2 16 2 4 6 4 6 8 2 4 0 6 0 2 
+For input diff 38
+6 10 0 10 0 6 4 4 2 2 4 6 2 4 2 2 
+For input diff 39
+4 0 2 0 2 2 14 0 4 6 6 2 12 2 4 4 
+For input diff 40
+14 4 6 4 4 6 2 0 6 6 2 2 4 0 2 2 
+For input diff 41
+2 2 0 2 0 8 4 2 4 6 4 4 6 4 12 4 
+For input diff 42
+2 4 0 0 0 2 8 12 0 8 2 4 8 4 4 6 
+For input diff 43
+16 6 2 4 6 10 2 2 2 2 2 2 4 2 2 0 
+For input diff 44
+2 6 6 8 2 2 0 6 0 8 4 2 2 6 8 2 
+For input diff 45
+6 2 4 2 8 8 2 8 2 4 4 0 2 0 8 4 
+For input diff 46
+2 4 8 0 2 2 2 4 0 2 8 4 14 6 0 6 
+For input diff 47
+2 2 2 8 0 2 2 6 4 6 8 8 6 2 0 6 
+For input diff 48
+0 6 8 2 8 4 4 0 10 4 4 6 0 0 2 6 
+For input diff 49
+0 8 4 0 6 2 2 6 6 0 0 2 6 4 8 10 
+For input diff 50
+2 4 0 0 6 4 10 6 6 4 6 2 4 6 2 2 
+For input diff 51
+0 16 6 8 2 0 2 2 4 2 8 4 0 4 6 0 
+For input diff 52
+0 4 14 8 2 2 2 4 16 2 2 2 0 2 0 4 
+For input diff 53
+0 6 0 0 10 8 2 2 6 0 0 8 6 4 4 8 
+For input diff 54
+2 0 2 2 4 6 4 4 2 2 4 2 4 16 10 0 
+For input diff 55
+6 6 6 8 4 2 4 4 4 0 6 8 2 4 0 0 
+For input diff 56
+0 2 2 2 8 8 0 2 2 2 0 6 6 4 10 10 
+For input diff 57
+4 4 16 8 0 6 4 2 4 4 2 6 0 2 2 0 
+For input diff 58
+16 6 4 0 2 0 2 6 0 4 8 10 0 0 4 2 
+For input diff 59
+2 0 0 2 0 4 4 4 2 6 2 6 6 12 12 2 
+For input diff 60
+0 0 8 0 12 8 2 6 6 4 0 2 2 4 6 4 
+For input diff 61
+2 4 12 2 2 2 0 4 6 10 2 6 4 2 0 6 
+For input diff 62
+4 6 6 6 2 0 4 8 2 10 4 6 0 4 2 0 
+For input diff 63
+14 0 0 0 8 0 6 8 4 2 0 0 4 8 4 6 
+--------------------------------------
+
+For S-box 7
+For input diff 0
+64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+For input diff 1
+0 0 0 6 0 16 10 0 0 0 6 0 14 6 2 4 
+For input diff 2
+0 0 0 8 0 10 4 2 0 10 2 4 8 8 6 2 
+For input diff 3
+6 0 2 8 2 6 4 0 6 6 6 2 2 0 8 6 
+For input diff 4
+0 0 0 2 0 4 6 12 0 6 8 4 10 4 8 0 
+For input diff 5
+4 10 6 0 0 2 6 0 4 10 4 6 8 2 0 2 
+For input diff 6
+0 0 10 4 6 4 4 8 2 6 4 2 4 2 2 6 
+For input diff 7
+6 2 8 2 8 10 6 6 4 2 0 4 0 0 0 6 
+For input diff 8
+0 0 0 4 0 6 4 2 0 8 6 10 8 2 2 12 
+For input diff 9
+8 4 0 6 0 4 4 6 2 4 6 2 12 2 0 4 
+For input diff 10
+0 0 16 4 6 6 4 0 4 6 4 2 2 0 0 10 
+For input diff 11
+2 8 0 6 2 6 0 4 4 10 0 2 10 2 6 2 
+For input diff 12
+0 0 0 2 0 10 10 6 0 6 6 6 2 6 10 0 
+For input diff 13
+6 0 4 10 2 0 8 6 2 2 6 10 2 2 2 2 
+For input diff 14
+0 0 6 8 4 8 0 2 10 6 2 4 6 2 4 2 
+For input diff 15
+8 0 4 2 2 4 2 2 2 6 4 6 0 2 14 6 
+For input diff 16
+0 0 0 4 0 0 8 12 0 0 8 8 2 10 6 6 
+For input diff 17
+0 6 4 6 2 2 6 6 4 6 4 6 0 4 4 4 
+For input diff 18
+0 4 0 8 6 2 8 4 2 4 4 6 2 4 10 0 
+For input diff 19
+4 2 2 6 8 6 2 2 14 2 2 4 2 2 2 4 
+For input diff 20
+0 16 4 2 6 0 2 6 4 0 4 6 4 6 4 0 
+For input diff 21
+0 10 6 0 6 0 2 8 2 2 0 8 2 6 6 6 
+For input diff 22
+0 12 6 4 6 0 0 0 8 6 6 2 2 6 4 2 
+For input diff 23
+0 6 8 0 6 2 4 6 6 0 2 6 4 4 2 8 
+For input diff 24
+0 12 2 2 8 0 8 0 10 4 4 2 4 2 0 6 
+For input diff 25
+6 4 8 0 8 0 4 2 0 0 12 2 4 6 2 6 
+For input diff 26
+0 4 6 2 8 8 0 4 8 0 0 0 6 2 0 16 
+For input diff 27
+2 4 8 10 2 4 2 8 2 4 8 2 0 2 4 2 
+For input diff 28
+0 12 6 4 6 4 2 2 6 0 4 4 2 10 2 0 
+For input diff 29
+8 6 0 0 10 0 0 8 10 4 2 2 2 8 4 0 
+For input diff 30
+0 4 8 6 8 2 4 4 10 2 2 4 2 0 6 2 
+For input diff 31
+4 2 4 2 6 2 4 0 2 6 2 2 2 16 8 2 
+For input diff 32
+0 0 0 16 0 4 0 0 0 14 6 4 2 0 4 14 
+For input diff 33
+0 0 2 10 2 8 10 0 0 6 6 0 10 2 2 6 
+For input diff 34
+8 0 6 0 6 4 10 2 0 6 8 0 4 4 2 4 
+For input diff 35
+4 8 0 6 0 4 8 6 2 2 10 4 8 0 0 2 
+For input diff 36
+4 0 4 8 4 6 2 4 8 6 2 0 0 4 4 8 
+For input diff 37
+0 4 6 8 2 8 8 0 4 2 4 4 2 2 6 4 
+For input diff 38
+2 6 0 6 4 4 4 6 6 0 4 4 10 4 2 2 
+For input diff 39
+6 6 0 0 2 2 6 2 4 4 6 10 2 6 2 6 
+For input diff 40
+10 2 6 2 4 12 12 0 2 2 4 0 0 0 2 6 
+For input diff 41
+4 0 0 14 2 10 4 2 8 6 4 0 4 2 2 2 
+For input diff 42
+8 8 0 2 0 2 4 0 2 6 8 14 2 8 0 0 
+For input diff 43
+2 2 0 0 4 2 10 4 6 2 4 0 6 4 8 10 
+For input diff 44
+2 6 6 2 4 6 2 0 2 6 4 0 6 4 10 4 
+For input diff 45
+8 0 4 4 6 2 0 0 6 8 2 4 6 4 4 6 
+For input diff 46
+6 2 2 4 2 2 6 12 4 0 4 2 8 8 0 2 
+For input diff 47
+8 12 4 6 6 4 2 2 2 2 4 2 2 4 0 4 
+For input diff 48
+0 4 6 2 10 2 2 2 4 8 0 0 8 4 6 6 
+For input diff 49
+4 6 8 0 4 6 0 4 4 6 10 2 2 4 4 0 
+For input diff 50
+6 6 6 2 4 6 0 2 0 6 8 2 2 6 6 2 
+For input diff 51
+6 6 4 2 4 0 0 10 2 2 0 6 8 4 0 10 
+For input diff 52
+0 2 12 4 10 4 0 4 12 0 2 4 2 2 2 4 
+For input diff 53
+6 4 4 0 10 0 0 4 10 0 0 4 2 8 8 4 
+For input diff 54
+4 6 2 2 2 2 6 8 6 4 2 6 0 4 10 0 
+For input diff 55
+2 2 8 2 4 4 4 2 6 2 0 10 6 10 2 0 
+For input diff 56
+0 4 8 4 2 6 6 2 4 2 2 4 6 4 4 6 
+For input diff 57
+4 4 4 8 0 6 0 6 4 8 2 2 2 4 8 2 
+For input diff 58
+8 8 0 4 2 0 10 4 0 0 0 4 8 6 8 2 
+For input diff 59
+8 2 6 4 4 4 4 0 6 4 4 6 4 4 4 0 
+For input diff 60
+0 6 6 6 6 0 0 8 8 2 4 8 4 2 4 0 
+For input diff 61
+2 2 8 0 10 0 2 12 0 4 0 8 0 2 6 8 
+For input diff 62
+6 4 0 0 4 4 0 10 6 2 6 12 2 4 0 4 
+For input diff 63
+0 6 6 0 4 4 6 10 0 6 8 2 0 4 8 0 
+--------------------------------------
