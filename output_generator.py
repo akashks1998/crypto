@@ -13,6 +13,7 @@ for inp in arr:
     auto.doubleClick(536,837, button='left')
     auto.keyDown('ctrlleft');auto.press('c');auto.keyUp('ctrlleft')
     auto.click(1475,1043,button='left')
+    auto.keyDown('ctrlleft');auto.press('end');auto.keyUp('ctrlleft')
     auto.keyDown('ctrlleft');auto.press('v');auto.keyUp('ctrlleft')
     auto.press('enter')
 
