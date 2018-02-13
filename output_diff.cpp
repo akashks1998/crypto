@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 	ifstream infile;
-	infile.open("output.txt");
+	infile.open("output_1.txt");
 	string s1;
 	string s2;
 	while(infile>>s1>>s2){
@@ -26,7 +26,11 @@ int main(){
 			cout<<s1<<" "<<s2<<" Not_a_16_letter!!"<<endl;
 		}else{
 			cout<<s1<<" "<<s2<<" ";
-			for(int i=0;i<64;i++){
+			for(int i=0;i<31;i++){
+				cout<<d[i];
+			}
+			cout<<" ";
+			for(int i=31;i<64;i++){
 				cout<<d[i];
 			}
 			cout<<endl;
