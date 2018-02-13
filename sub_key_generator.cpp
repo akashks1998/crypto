@@ -5,6 +5,17 @@ using namespace std;
 
 int possible_keys[5][64];//2,5,6,7,8
 
+int RFP[] = {
+  8,40,16,48,24,56,32,64,
+  7, 39,15,47,23,55,31,63,
+  6,38,14,46,22,54,30,62,
+  5,37,13,45, 21,53,29,61,
+  4,36,12,44,20,52,28,60,
+  3, 35, 11,43,19,51,27,59,
+  2, 34, 10, 42,18, 50,26,58,
+  1,33,9,41, 17, 49, 25,57,
+};
+
 int S[8][64]=
 {
  14, 4, 13, 1, 2, 15, 11, 8, 3 , 10, 6, 12, 5, 9, 0, 7,
@@ -92,10 +103,10 @@ void key_gen(int* T_r1,int* T_r2,int* S_box_output){
     T_r1_expand[i]=T_r1[E[i]-1];
     T_r2_expand[i]=T_r2[E[i]-1];
   }
-
   int T_r1_pack[8];
   int T_r2_pack[8];
   int S_box_output_pack[8];
+  cout<<"output_pack-<><><><><><><><><><><><><><><><><><><><><><><><><><>"<<endl;
   for(int i=0;i<8;i++){
     int temp1=0;
     int temp2=0;
@@ -107,6 +118,10 @@ void key_gen(int* T_r1,int* T_r2,int* S_box_output){
     }
     T_r1_pack[i]=temp1;
     T_r2_pack[i]=temp2;
+
+    cout<<"output_pack-"<<i<<endl;
+    cout<<S_box_output[0+i*4]<<S_box_output[1+i*4]<<S_box_output[2+i*4]<<S_box_output[3+i*4]<<endl;
+
     if(S_box_output[i*4]==-1){
       S_box_output_pack[i]=-1;
     }else{
@@ -130,6 +145,16 @@ void key_gen(int* T_r1,int* T_r2,int* S_box_output){
     int idx=index[i];
     int flag=0;
     for(int key=0;key<64;key++){
+      cout<<"display-<><><><><><><><><><><><><><><><><><><><><><><><><><>"<<endl;
+      cout<<"idx "<<idx<<endl;
+      cout<<"T_r1_pack[idx] "<<T_r1_pack[idx]<<endl;
+      cout<<"key "<<key<<endl;
+      int y=T_r1_pack[idx]^key;
+      cout<<"T_r1_pack[idx]^key "<<y<<endl;
+      cout<<"T_r2_pack[idx] "<<T_r2_pack[idx]<<endl;
+      cout<<"S[idx][T_r2_pack[idx]^key] "<<S[idx][T_r2_pack[idx]^key]<<endl;
+      cout<<"S[idx][T_r1_pack[idx]^key] "<<S[idx][T_r1_pack[idx]^key]<<endl;
+      cout<<"S_box_output_pack[idx] "<<S_box_output_pack[idx]<<endl;
       int temp=S[idx][T_r1_pack[idx]^key]^S[idx][T_r2_pack[idx]^key];
       if(temp==S_box_output_pack[idx]){
         Add[i][key]++;
@@ -150,13 +175,13 @@ void key_gen(int* T_r1,int* T_r2,int* S_box_output){
 void binary(string inp1, int* T_l1, int mode){
   for(int i=0+8*mode;i<8+8*mode;i++){
     int k=(int)(inp1[i]-'f');
-    T_l1[4*i+3]=k%2;
+    T_l1[4*i+3-32*mode]=k&01;
     k=k>>1;
-    T_l1[4*i+2]=k%2;
+    T_l1[4*i+2-32*mode]=k&01;
     k=k>>1;
-    T_l1[4*i+1]=k%2;
+    T_l1[4*i+1-32*mode]=k&01;
     k=k>>1;
-    T_l1[4*i+0]=k%2;
+    T_l1[4*i+0-32*mode]=k&01;
   }
   return;
 }
@@ -178,14 +203,26 @@ int main(){
     }
   }
   while(infile>>inp1>>inp2>>diff_l>>diff_r){
-    int T_l1[32],T_r1[32],T_l2[32],T_r2[32];
+    int T_l1[32],T_r1[32],T_l2[32],T_r2[32],T_L1[32],T_L2[32],T_R1[32],T_R2[32];
     int diffr_r[32],diffr_l[32];
-    binary(inp1,T_l1,0);
-    binary(inp2,T_l2,0);
-    binary(inp1,T_r1,1);
-    binary(inp2,T_r2,1);
+    binary(inp1,T_L1,0);
+    binary(inp2,T_L2,0);
+    binary(inp1,T_R1,1);
+    binary(inp2,T_R2,1);
     cupy(diff_l,diffr_l);
     cupy(diff_r,diffr_r);
+
+    for(int i=0;i<64;i++){
+      int idx=RFP[i]-1;
+      if(i<=31){
+        T_l1[i]=T_L1[idx];
+        T_l2[i]=T_L2[idx];
+      }else{
+        T_l1[i]=T_R1[idx-32];
+        T_l2[i]=T_L2[idx-32];
+      }
+    }
+
     int c_dash[32]={0,0,0,0,
                     0,1,0,0,
                     0,0,0,0,
@@ -229,7 +266,7 @@ int main(){
 
     for(int i=0;i<5;i++){
       for(int j=0;j<63;j++){
-        cout<<possible_keys[i][j]<<" ";
+        // cout<<possible_keys[i][j]<<" ";
       }cout<<endl;
     }cout<<"____________________________________"<<endl;
 
