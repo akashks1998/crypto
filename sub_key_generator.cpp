@@ -1,6 +1,7 @@
 #include<iostream>
 #include<bits/stdc++.h>
-
+#define _N 5
+#define _M 64
 using namespace std;
 
 int possible_keys[5][64];//2,5,6,7,8
@@ -94,6 +95,20 @@ int INV_P[] = {
 	5, 27, 15, 21,
 };
 
+void key_maker(int add[_N][_M],int snum,long long int key){
+  if(snum==_N){
+    cout<<key<<endl;
+  }else{
+    for(long long int i=0;i<_M;i++){
+      if(add[snum][i]==1){
+        long long int temp=(key<<6)|i;
+        key_maker(add,snum+1,temp);
+      }
+    }
+  }
+}
+
+
 void key_gen(int* T_r1,int* T_r2,int* S_box_output){
   int Add[5][64];
 
@@ -167,11 +182,12 @@ void key_gen(int* T_r1,int* T_r2,int* S_box_output){
       return;
     }
   }
-  for(int i=0;i<5;i++){
-    for(int j=0;j<64;j++){
-      possible_keys[i][j]+=Add[i][j];
-    }
-  }
+  // for(int i=0;i<5;i++){
+  //   for(int j=0;j<64;j++){
+  //     possible_keys[i][j]+=Add[i][j];
+  //   }
+  // }
+  key_maker(Add,0,0);
 }
 
 void binary(string inp1, int* T_l1, int mode){
@@ -265,12 +281,6 @@ int main(){
     }
 
     key_gen(T_r1,T_r2,S_box_output);
-
-    for(int i=0;i<5;i++){
-      for(int j=0;j<63;j++){
-        // cout<<possible_keys[i][j]<<" ";
-      }cout<<endl;
-    }cout<<"____________________________________"<<endl;
 
   }
 }
