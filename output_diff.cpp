@@ -41,13 +41,13 @@ int main(){
 		}else{
 			cout<<s1<<" "<<s2<<" ";
 			for(int i=0;i<31;i++){
-				// cout<<d[i];
-				cout<<'1';
+				cout<<d[i];
+				// cout<<'1';
 			}
 			cout<<" ";
 			for(int i=31;i<64;i++){
-				// cout<<d[i];
-				cout<<'0';
+				cout<<d[i];
+				// cout<<'0';
 			}
 			cout<<endl;
 		}

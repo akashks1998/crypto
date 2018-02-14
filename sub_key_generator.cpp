@@ -4,7 +4,12 @@
 #define _M 64
 using namespace std;
 
+<<<<<<< HEAD
 int possible_keys[5][64]; //2,5,6,7,8
+=======
+int possible_keys[5][64];//2,5,6,7,8
+int line=0;
+>>>>>>> 83574ff914a6effa6e9806250731ecc27a953ebb
 
 int RFP[] =
 {
@@ -109,6 +114,7 @@ void key_maker(int add[_N][_M],int snum,long long int key){
 
 
 void key_gen(int* T_r1,int* T_r2,int* S_box_output){
+<<<<<<< HEAD
         int Add[5][64];
         int T_r1_expand[48];
         int T_r2_expand[48];
@@ -165,6 +171,90 @@ void key_gen(int* T_r1,int* T_r2,int* S_box_output){
                 }
         }
         key_maker(Add,0,0);
+=======
+  int Add[5][64];
+
+  int T_r1_expand[48];
+  int T_r2_expand[48];
+  for(int i=0;i<48;i++){
+    T_r1_expand[i]=T_r1[E[i]-1];
+    T_r2_expand[i]=T_r2[E[i]-1];
+  }
+  int T_r1_pack[8];
+  int T_r2_pack[8];
+  int S_box_output_pack[8];
+  // cout<<"output_pack-<><><><><><><><><><><><><><><><><><><><><><><><><><>"<<endl;
+  for(int i=0;i<8;i++){
+    int temp1=0;
+    int temp2=0;
+    int mult=1;
+    for(int j=5;j>=0;j--){
+      temp1=temp1+T_r1_expand[j+(i*6)]*mult;
+      temp2=temp2+T_r2_expand[j+(i*6)]*mult;
+      mult=mult*2;
+    }
+    T_r1_pack[i]=temp1;
+    T_r2_pack[i]=temp2;
+
+    // cout<<"output_pack-"<<i<<endl;
+    // cout<<S_box_output[0+i*4]<<S_box_output[1+i*4]<<S_box_output[2+i*4]<<S_box_output[3+i*4]<<endl;
+
+    if(S_box_output[i*4]==-1){
+      S_box_output_pack[i]=-1;
+    }else{
+      int temp=0;
+      int mult=1;
+      for(int j=3;j>=0;j--){
+        temp=temp+S_box_output[j+(i*4)]*mult;
+        mult=mult*2;
+      }
+      S_box_output_pack[i]=temp;
+    }
+  }
+
+  for(int i=0;i<5;i++){
+    for(int j=0;j<64;j++){
+      Add[i][j]=0;
+    }
+  }
+  int index[]={1,4,5,6,7};
+  for(int i=0;i<5;i++){
+    int idx=index[i];
+    int flag=0;
+    for(int key=0;key<64;key++){
+      // cout<<"display-<><><><><><><><><><><><><><><><><><><><><><><><><><>"<<endl;
+      // cout<<"idx "<<idx<<endl;
+      // cout<<"T_r1_pack[idx] "<<T_r1_pack[idx]<<endl;
+      // cout<<"key "<<key<<endl;
+      int y=T_r1_pack[idx]^key;
+      // cout<<"T_r1_pack[idx]^key "<<y<<endl;
+      // cout<<"T_r2_pack[idx] "<<T_r2_pack[id/x]<<endl;
+      // cout<<"S[idx][T_r2_pack[idx]^key] "<<S[idx][T_r2_pack[idx]^key]<<endl;
+      // cout<<"S[idx][T_r1_pack[idx]^key] "<<S[idx][T_r1_pack[idx]^key]<<endl;
+      // cout<<"S_box_output_pack[idx] "<<S_box_output_pack[idx]<<endl;
+      int temp=S[idx][T_r1_pack[idx]^key]^S[idx][T_r2_pack[idx]^key];
+      // cout<<"temp "<<temp<<endl;
+      if(temp==S_box_output_pack[idx]){
+        // cout<<"Add[i][key]++   ========================="<<endl;
+        Add[i][key]++;
+        flag=1;
+      }
+    }
+    if(flag==0){
+      return;
+    }
+  }
+  // cout<<"Add---------------------------------------------"<<endl;
+  // cout<<line++<<endl;
+  // cout<<"---------------------------"<<endl;
+  // for(int i=0;i<5;i++){
+  //   for(int j=0;j<64;j++){
+  //     cout<<Add[i][j];
+  //   }cout<<endl;
+  // }
+  // cout<<"---------------------------"<<endl;
+  key_maker(Add,0,0);
+>>>>>>> 83574ff914a6effa6e9806250731ecc27a953ebb
 }
 
 void binary(string inp1, int* T_l1, int mode){
@@ -189,6 +279,7 @@ void cupy(string s, int* d){
 }
 
 int main(){
+<<<<<<< HEAD
         ifstream infile;
         infile.open("differential_1.txt");
         string inp1,inp2,diff_l,diff_r;
@@ -260,4 +351,78 @@ int main(){
 
         }
         return 0;
+=======
+  ifstream infile;
+  infile.open("differential_1.txt");
+  string inp1,inp2,diff_l,diff_r;
+  for(int i=0;i<5;i++){
+    for(int j=0;j<64;j++){
+      possible_keys[i][j]=0;
+    }
+  }
+  while(infile>>inp1>>inp2>>diff_l>>diff_r){
+    int T_l1[32],T_r1[32],T_l2[32],T_r2[32],T_L1[32],T_L2[32],T_R1[32],T_R2[32];
+    int diffr_r[32],diffr_l[32];
+    binary(inp1,T_L1,0);
+    binary(inp2,T_L2,0);
+    binary(inp1,T_R1,1);
+    binary(inp2,T_R2,1);
+    cupy(diff_l,diffr_l);
+    cupy(diff_r,diffr_r);
+
+    for(int i=0;i<64;i++){
+      int idx=RFP[i]-1;
+      if(i<=31){
+        T_l1[i]=T_L1[idx];
+        T_l2[i]=T_L2[idx];
+      }else{
+        T_l1[i]=T_R1[idx-32];
+        T_l2[i]=T_L2[idx-32];
+      }
+      // cout<<T_l1[i];
+    }cout<<endl;
+
+    int c_dash[32]={0,0,0,0,
+                    0,1,0,0,
+                    0,0,0,0,
+                    0,0,0,0,
+                    0,0,0,0,
+                    0,0,0,0,
+                    0,0,0,0,
+                    0,0,0,0};
+    int D_dash[32];
+    for(int i=0;i<4;i++){
+      D_dash[i]=-1;
+    }
+    for(int i=4;i<8;i++){
+      D_dash[i]=0;
+    }
+    for(int i=8;i<16;i++){
+      D_dash[i]=-1;
+    }
+    for(int i=16;i<32;i++){
+      D_dash[i]=0;
+    }
+
+    int reverse_c_dash[32], reverse_Tl_dash[32];
+
+    for(int i=0;i<32;i++){
+        reverse_c_dash[i]=c_dash[INV_P[i]-1];
+        reverse_Tl_dash[i]=T_l1[INV_P[i]-1]^T_l2[INV_P[i]-1];
+    }
+
+
+    int S_box_output[32];
+    for(int i=0;i<32;i++){
+      if(D_dash[i]==-1){
+        S_box_output[i]=-1;
+      }else{
+        S_box_output[i]=reverse_Tl_dash[i]^reverse_c_dash[i];
+      }
+    }
+
+    key_gen(T_r1,T_r2,S_box_output);
+
+  }
+>>>>>>> 83574ff914a6effa6e9806250731ecc27a953ebb
 }
