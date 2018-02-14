@@ -106,7 +106,7 @@ void key_gen(int* T_r1,int* T_r2,int* S_box_output){
   int T_r1_pack[8];
   int T_r2_pack[8];
   int S_box_output_pack[8];
-  cout<<"output_pack-<><><><><><><><><><><><><><><><><><><><><><><><><><>"<<endl;
+  // cout<<"output_pack-<><><><><><><><><><><><><><><><><><><><><><><><><><>"<<endl;
   for(int i=0;i<8;i++){
     int temp1=0;
     int temp2=0;
@@ -119,8 +119,8 @@ void key_gen(int* T_r1,int* T_r2,int* S_box_output){
     T_r1_pack[i]=temp1;
     T_r2_pack[i]=temp2;
 
-    cout<<"output_pack-"<<i<<endl;
-    cout<<S_box_output[0+i*4]<<S_box_output[1+i*4]<<S_box_output[2+i*4]<<S_box_output[3+i*4]<<endl;
+    // cout<<"output_pack-"<<i<<endl;
+    // cout<<S_box_output[0+i*4]<<S_box_output[1+i*4]<<S_box_output[2+i*4]<<S_box_output[3+i*4]<<endl;
 
     if(S_box_output[i*4]==-1){
       S_box_output_pack[i]=-1;
@@ -145,18 +145,20 @@ void key_gen(int* T_r1,int* T_r2,int* S_box_output){
     int idx=index[i];
     int flag=0;
     for(int key=0;key<64;key++){
-      cout<<"display-<><><><><><><><><><><><><><><><><><><><><><><><><><>"<<endl;
-      cout<<"idx "<<idx<<endl;
-      cout<<"T_r1_pack[idx] "<<T_r1_pack[idx]<<endl;
-      cout<<"key "<<key<<endl;
+      // cout<<"display-<><><><><><><><><><><><><><><><><><><><><><><><><><>"<<endl;
+      // cout<<"idx "<<idx<<endl;
+      // cout<<"T_r1_pack[idx] "<<T_r1_pack[idx]<<endl;
+      // cout<<"key "<<key<<endl;
       int y=T_r1_pack[idx]^key;
-      cout<<"T_r1_pack[idx]^key "<<y<<endl;
-      cout<<"T_r2_pack[idx] "<<T_r2_pack[idx]<<endl;
-      cout<<"S[idx][T_r2_pack[idx]^key] "<<S[idx][T_r2_pack[idx]^key]<<endl;
-      cout<<"S[idx][T_r1_pack[idx]^key] "<<S[idx][T_r1_pack[idx]^key]<<endl;
-      cout<<"S_box_output_pack[idx] "<<S_box_output_pack[idx]<<endl;
+      // cout<<"T_r1_pack[idx]^key "<<y<<endl;
+      // cout<<"T_r2_pack[idx] "<<T_r2_pack[id/x]<<endl;
+      // cout<<"S[idx][T_r2_pack[idx]^key] "<<S[idx][T_r2_pack[idx]^key]<<endl;
+      // cout<<"S[idx][T_r1_pack[idx]^key] "<<S[idx][T_r1_pack[idx]^key]<<endl;
+      // cout<<"S_box_output_pack[idx] "<<S_box_output_pack[idx]<<endl;
       int temp=S[idx][T_r1_pack[idx]^key]^S[idx][T_r2_pack[idx]^key];
+      // cout<<"temp "<<temp<<endl;
       if(temp==S_box_output_pack[idx]){
+        // cout<<"Add[i][key]++   ========================="<<endl;
         Add[i][key]++;
         flag=1;
       }
