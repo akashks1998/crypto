@@ -5,6 +5,7 @@
 using namespace std;
 
 int possible_keys[5][64];//2,5,6,7,8
+int line=0;
 
 int RFP[] = {
   8,40,16,48,24,56,32,64,
@@ -182,11 +183,15 @@ void key_gen(int* T_r1,int* T_r2,int* S_box_output){
       return;
     }
   }
+  // cout<<"Add---------------------------------------------"<<endl;
+  // cout<<line++<<endl;
+  // cout<<"---------------------------"<<endl;
   // for(int i=0;i<5;i++){
   //   for(int j=0;j<64;j++){
-  //     possible_keys[i][j]+=Add[i][j];
-  //   }
+  //     cout<<Add[i][j];
+  //   }cout<<endl;
   // }
+  // cout<<"---------------------------"<<endl;
   key_maker(Add,0,0);
 }
 
@@ -239,7 +244,8 @@ int main(){
         T_l1[i]=T_R1[idx-32];
         T_l2[i]=T_L2[idx-32];
       }
-    }
+      // cout<<T_l1[i];
+    }cout<<endl;
 
     int c_dash[32]={0,0,0,0,
                     0,1,0,0,
