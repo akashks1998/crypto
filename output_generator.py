@@ -8,7 +8,6 @@ for inp in arr:
     auto.click(1209,920, button='left')
     to_input=list(inp)
     auto.typewrite(to_input)
-    time.sleep(0.1)
     auto.press('enter')
     time.sleep(0.2)
     auto.doubleClick(536,837, button='left')
@@ -19,5 +18,6 @@ for inp in arr:
     auto.press('enter')
     if indx%500==0:
         auto.keyDown('ctrlleft');auto.press('s');auto.keyUp('ctrlleft')
+    indx=indx+1
 auto.moveTo(1475,1043)
 auto.keyDown("ctrlleft");auto.press('s');auto.keyUp("ctrlleft")

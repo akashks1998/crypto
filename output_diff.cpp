@@ -16,7 +16,7 @@ int IP[] = {
 
 int main(){
 	ifstream infile;
-	infile.open("output_1.txt");
+	infile.open("output_new.txt");
 	string s1;
 	string s2;
 	while(infile>>s1>>s2){
