@@ -4,7 +4,6 @@
 #define _M 64
 using namespace std;
 
-int possible_keys[5][64]; //2,5,6,7,8
 
 int RFP[] =
 {
@@ -96,7 +95,7 @@ int INV_P[] = {
 
 void key_maker(int add[_N][_M],int snum,long long int key){
         if(snum==_N) {
-                // cout<<key<<endl;
+                 cout<<key<<endl;
         }else{
                 for(long long int i=0; i<_M; i++) {
                         if(add[snum][i]==1) {
@@ -185,11 +184,7 @@ int main(){
         ifstream infile;
         infile.open("diff_3.txt");
         string inp1,inp2,diff_l,diff_r;
-        for(int i=0; i<5; i++) {
-                for(int j=0; j<64; j++) {
-                        possible_keys[i][j]=0;
-                }
-        }
+
         while(infile>>inp1>>inp2>>diff_l>>diff_r) {
                 int T_l1[32],T_r1[32],T_l2[32],T_r2[32],T_L1[32],T_L2[32],T_R1[32],T_R2[32];
                 int diffr_r[32],diffr_l[32];
