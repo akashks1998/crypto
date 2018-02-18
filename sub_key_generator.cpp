@@ -8,14 +8,14 @@ int possible_keys[5][64]; //2,5,6,7,8
 
 int RFP[] =
 {
-40,	8,	48,	16,	56,	24,	64,	32,
-39,	7,	47,	15,	55,	23,	63,	31,
-38,	6,	46,	14,	54,	22,	62,	30,
-37,	5,	45,	13,	53,	21,	61,	29,
-36,	4,	44,	12,	52,	20,	60,	28,
-35,	3,	43,	11,	51,	19,	59,	27,
-34,	2,	42,	10,	50,	18,	58,	26,
-33,	1,	41,	9,	49,	17,	57,	25
+40, 8,  48, 16, 56, 24, 64, 32,
+39, 7,  47, 15, 55, 23, 63, 31,
+38, 6,  46, 14, 54, 22, 62, 30,
+37, 5,  45, 13, 53, 21, 61, 29,
+36, 4,  44, 12, 52, 20, 60, 28,
+35, 3,  43, 11, 51, 19, 59, 27,
+34, 2,  42, 10, 50, 18, 58, 26,
+33, 1,  41, 9,  49, 17, 57, 25
 };
 
 int S[8][64]=
@@ -96,7 +96,7 @@ int INV_P[] = {
 
 void key_maker(int add[_N][_M],int snum,long long int key){
         if(snum==_N) {
-                cout<<key<<endl;
+                // cout<<key<<endl;
         }else{
                 for(long long int i=0; i<_M; i++) {
                         if(add[snum][i]==1) {
@@ -115,6 +115,7 @@ void key_gen(int* T_r1,int* T_r2,int* S_box_output){
         for(int i=0; i<48; i++) {
                 T_r1_expand[i]=T_r1[E[i]-1];
                 T_r2_expand[i]=T_r2[E[i]-1];
+                cout<<T_r1_expand[i];
         }
         int T_r1_pack[8];
         int T_r2_pack[8];
@@ -178,19 +179,11 @@ void binary(string inp1, int* T_l1, int mode){
                 k=k/2;
                 T_l1[4*i+0-32*mode]=k%2;
         }
-        return;
-}
-
-void cupy(string s, int* d){
-        for(int i=0; i<32; i++) {
-                d[i]=(int)s[i];
-        }
-        return;
 }
 
 int main(){
         ifstream infile;
-        infile.open("differential_2.txt");
+        infile.open("diff_3.txt");
         string inp1,inp2,diff_l,diff_r;
         for(int i=0; i<5; i++) {
                 for(int j=0; j<64; j++) {
@@ -204,12 +197,18 @@ int main(){
                 binary(inp2,T_L2,0);
                 binary(inp1,T_R1,1);
                 binary(inp2,T_R2,1);
-                cupy(diff_l,diffr_l);
-                cupy(diff_r,diffr_r);
 
+                for(int i=0; i<32; i++) {
+                        int temp=T_L1[i];
+                        T_L1[i]=T_R1[i];
+                        T_R1[i]=temp;
+                        temp=T_L2[i];
+                        T_L2[i]=T_R2[i];
+                        T_R2[i]=temp;
+                }
                 for(int i=0; i<64; i++) {
                         int idx=RFP[i]-1;
-                        if(i<32){
+                        if(i<32) {
                                 if(idx<32) {
                                         T_l1[i]=T_L1[idx];
                                         T_l2[i]=T_L2[idx];
@@ -218,13 +217,13 @@ int main(){
                                         T_l2[i]=T_R2[idx-32];
                                 }
                         }else{
-                            if(idx<32) {
-                                    T_r1[i-32]=T_L1[idx];
-                                    T_r2[i-32]=T_L2[idx];
-                            }else{
-                                    T_r1[i-32]=T_R1[idx-32];
-                                    T_r2[i-32]=T_R2[idx-32];
-                            }
+                                if(idx<32) {
+                                        T_r1[i-32]=T_L1[idx];
+                                        T_r2[i-32]=T_L2[idx];
+                                }else{
+                                        T_r1[i-32]=T_R1[idx-32];
+                                        T_r2[i-32]=T_R2[idx-32];
+                                }
                         }
                 }
 
@@ -255,6 +254,7 @@ int main(){
                 for(int i=0; i<32; i++) {
                         reverse_c_dash[i]=c_dash[INV_P[i]-1];
                         reverse_Tl_dash[i]=T_l1[INV_P[i]-1]^T_l2[INV_P[i]-1];
+
                 }
 
 
@@ -265,6 +265,7 @@ int main(){
                         }else{
                                 S_box_output[i]=reverse_Tl_dash[i]^reverse_c_dash[i];
                         }
+
                 }
                 key_gen(T_r1,T_r2,S_box_output);
 
