@@ -114,7 +114,7 @@ void key_gen(int* T_r1,int* T_r2,int* S_box_output){
         for(int i=0; i<48; i++) {
                 T_r1_expand[i]=T_r1[E[i]-1];
                 T_r2_expand[i]=T_r2[E[i]-1];
-                cout<<T_r1_expand[i];
+                // cout<<T_r1_expand[i];
         }
         int T_r1_pack[8];
         int T_r2_pack[8];
@@ -182,7 +182,7 @@ void binary(string inp1, int* T_l1, int mode){
 
 int main(){
         ifstream infile;
-        infile.open("diff_3.txt");
+        infile.open("diff_1.txt");
         string inp1,inp2,diff_l,diff_r;
 
         while(infile>>inp1>>inp2>>diff_l>>diff_r) {
