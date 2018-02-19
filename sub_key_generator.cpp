@@ -162,7 +162,7 @@ void key_gen(int* T_r1,int* T_r2,int* S_box_output){
                         Add[i][j]=0;
                 }
         }
-        int index[]={5,6,7,1,4};
+        int index[]={5};
         // int index []={1};
         for(int i=0; i<_N; i++) {
                 int idx=index[i];
@@ -213,7 +213,7 @@ void binary(string inp1, int* T_l1, int mode){
 
 int main(){
         ifstream infile;
-        infile.open("input_1.txt");
+        infile.open("diff_2.txt");
         string inp1,inp2,diff_l,diff_r;
         // int line=0;
         while(infile>>inp1>>inp2) {
@@ -245,27 +245,27 @@ int main(){
                                 }
                         }
                 }
-
+                //00 00 04 00
                 int c_dash[32]={0,0,0,0,
+                                0,0,0,0,
+                                0,0,0,0,
+                                0,0,0,0,
+                                0,0,0,0,
                                 0,1,0,0,
-                                0,0,0,0,
-                                0,0,0,0,
-                                0,0,0,0,
-                                0,0,0,0,
                                 0,0,0,0,
                                 0,0,0,0};
                 int D_dash[32];
-                for(int i=0; i<4; i++) {
-                        D_dash[i]=-1;
-                }
-                for(int i=4; i<8; i++) {
+                for(int i=0; i<8; i++) {
                         D_dash[i]=0;
                 }
-                for(int i=8; i<16; i++) {
+                for(int i=8; i<12; i++) {
                         D_dash[i]=-1;
                 }
-                for(int i=16; i<32; i++) {
+                for(int i=12; i<24; i++) {
                         D_dash[i]=0;
+                }
+                for(int i=24; i<32; i++) {
+                        D_dash[i]=-1;
                 }
                 // int rever_D_dash[32];
                 // for(int i=0;i<32;i++){
