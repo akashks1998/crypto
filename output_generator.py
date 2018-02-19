@@ -1,6 +1,6 @@
 import pyautogui as auto
 import time
-file_object=open("input_in_string.txt","r+")
+file_object=open("input_2.txt","r+")
 time.sleep(15)
 arr = file_object.readlines()
 indx=0
